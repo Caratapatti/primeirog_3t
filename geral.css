@@ -1,31 +1,31 @@
 .calc {
-    background: blueviolet;
+    background: rgb(141, 2, 2);
     color: rgb(255, 255, 255);
     width: 200px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 6px black;
+    box-shadow: 5px 6px rgb(0, 0, 0);
 }
 .calc input {
-    background: rgb(255, 166, 240);
-    color: blueviolet;
+    background: rgb(119, 98, 216);
+    color: rgb(8, 15, 77);
     border-radius: 5px;
     padding: 5px;
 }
 .calc input:focus {
-    background: rgb(212, 72, 255);
-    color: rgb(132, 0, 255);
+    background: rgb(127, 28, 240);
+    color: rgb(0, 0, 0);
 }
 #spTotal {
-    background: rgb(245, 157, 226);
-    color: white;
+    background: rgb(119, 98, 216);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px
 }
 .calc button {
-    background: violet;
+    background: rgb(119, 98, 216);
     color: rosybrown;
     border-radius: 10px;
     padding: 5px;
@@ -33,17 +33,17 @@
 }
 .calc button:hover {
     background: rgb(51, 7, 51);
-    color: rgb(255, 255, 255);
+    color: rgb(250, 246, 246);
     cursor: pointer;
 }
 #listaMes {
     text-align: start;
     border-style: dotted;
-    border-color: violet;
+    border-color: rgb(107, 24, 24);
     border-width: 1px;
     border-radius: 4px;
     background: rgb(47, 40, 49);
-    color: rgb(236, 149, 236);
+    color: rgb(0, 0, 0);
     margin-top: 10px;
 }
 .cacF {
