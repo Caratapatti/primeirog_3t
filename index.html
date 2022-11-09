@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="geral.css">
 </head>
 <body>
+    <input type="checkbox" id="input-calcFin">
+    
     <div class="calc">
-        <div id="spTotal">
-          <span id="total">R$ 0,00</span>
+      <label for="input-calcFin"><h3>financeira</h3>
+    </label>
+    <div class="calcF"></div>
+      <div id="spTotal">
+    <span id="total">R$ 0,00</span>
     </div>
-       Capital: <input id="capital"type="text"><br>
-       Juros mensais: <input id="juros"type="text"><br>
-       Quantidade de meses: <input id="meses"type="text"><br>
-  <button onclick="total()">Calcular </button>
-  <div
-   <span id="listaMes"></span>
+    Capital: <input id="capital" placeholder="R$ ??" type="text"><br>
+    Juros mensais: <input id="juros" placeholder="% ??" type="text"><br>
+    Quantidade de meses: <input id="meses" placeholder="Tempo ??" type="text"><br>
+    <button onclick="total()">Calcular</button>
+    <div>
+        <span id="listaMes"></span>
+        <div>
+    </div>
     </div>
 </body>
-</html>
 
+</html>

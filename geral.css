@@ -1,33 +1,57 @@
 .calc {
-    background:rgb(167, 1, 1);
-    color: rgb(219, 214, 214);
+    background: blueviolet;
+    color: rgb(255, 255, 255);
     width: 200px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 5px 6px black;
 }
-input {
-    background: rgba(180, 1, 1, 0.685);
-    color: black;
+.calc input {
+    background: rgb(255, 166, 240);
+    color: blueviolet;
     border-radius: 5px;
     padding: 5px;
-} 
+}
+.calc input:focus {
+    background: rgb(212, 72, 255);
+    color: rgb(132, 0, 255);
+}
 #spTotal {
-    background: black;
-    color: rgb(8, 211, 8);
+    background: rgb(245, 157, 226);
+    color: white;
     border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px
 }
 .calc button {
-    background: rgb(240, 224, 224);
-    color: rgb(150, 34, 34);
+    background: violet;
+    color: rosybrown;
     border-radius: 10px;
     padding: 5px;
+    margin-bottom: 10px;
+}
+.calc button:hover {
+    background: rgb(51, 7, 51);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#listaMes {
+    text-align: start;
+    border-style: dotted;
+    border-color: violet;
+    border-width: 1px;
+    border-radius: 4px;
+    background: rgb(47, 40, 49);
+    color: rgb(236, 149, 236);
     margin-top: 10px;
 }
-calc button {
-    background: rgb(12, 11, 11);
-    color: rgb(216, 193, 193);
-    cursor: pointer;
+.cacF {
+    display: none;
+}
+#input-calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
 }
