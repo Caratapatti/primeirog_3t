@@ -32,7 +32,7 @@
     margin-bottom: 10px;
 }
 .calc button:hover {
-    background: rgb(51, 7, 51);
+    background: rgb(126, 14, 126);
     color: rgb(250, 246, 246);
     cursor: pointer;
 }
@@ -42,7 +42,7 @@
     border-color: rgb(107, 24, 24);
     border-width: 1px;
     border-radius: 4px;
-    background: rgb(47, 40, 49);
+    background: rgb(94, 4, 4);
     color: rgb(0, 0, 0);
     margin-top: 10px;
 }
